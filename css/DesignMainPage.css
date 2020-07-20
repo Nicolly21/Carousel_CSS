@@ -7,8 +7,6 @@
 body{
     display: grid;
     height: 100vh;
-    place-items: center;
-
 }
 #items-wrapper{
     width: 100vw;
@@ -34,4 +32,18 @@ img{
     height: 100%;
 }
 
+/* NavBar */
+.nav-wrapper{
+    background: linear-gradient(90deg, #09113E 0%, #1AA9A7 100%);
+}
+#logo{
+    position: absolute;
+    width: 10vw;
+    text-align: left;
+    margin-left: 5vw;
+}
+#nav-mobile{
+    margin-right: 5vw;
+}
+    
 
